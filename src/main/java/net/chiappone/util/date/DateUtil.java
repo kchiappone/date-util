@@ -2,13 +2,14 @@ package net.chiappone.util.date;
 
 /**
  * @author Kurtis Chiappone
- * @date 10/9/2016
  */
 public class DateUtil {
 
     /**
-     * @param time
-     * @return
+     * Returns the time and unit (e.g. milliseconds, seconds or minutes).
+     *
+     * @param time the time
+     * @return String pretty time
      */
     public static String getPrettyTime( long time ) {
 
